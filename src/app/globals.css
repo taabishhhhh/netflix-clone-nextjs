@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+*{
+  box-sizing: border-box;
+}
+
+/* .hero-section-bg{
+  background-image: '../../public/hero-section-bg';
+} */
+
+.my-container {
+  padding-left: 370px;
+  padding-right: 370px;
+}
+
+.h-600 {
+  height: 600px;
+} 
