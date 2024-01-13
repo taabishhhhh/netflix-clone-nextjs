@@ -8,11 +8,12 @@ const FAQSection = () => {
     const [activeAccordian, setActiveAccordian] = useState<number | null>(null)
 
     const mySetActiveIndex = (index: number) => {
+        console.log('index', index)
         activeAccordian == index ? setActiveAccordian(null) : setActiveAccordian(index)
     }
 
     return (
-        <div className='w-full py-16 flex flex-col items-center'>
+        <div className='w-full py-16 flex flex-col items-center my-container'>
             <Heading text='Frequently Asked Questions' />
             <div className='mt-6 w-full flex flex-col items-center justify-center gap-3 text-2xl'>
                 {FAQData.map((faq, index) => (

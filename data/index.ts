@@ -46,9 +46,9 @@ export const FAQData:Array<AccordionBaseProps> = [
     },
 ]
 
-export const navbarItems = [
+export const navbarItems:Array<Array<string>> = [
     ['FAQ', 'Investor Relations', 'Privacy', 'Speed test'],
-    ['FAQ', 'Investor Relations', 'Privacy', 'Speed test'],
-    ['FAQ', 'Investor Relations', 'Privacy', 'Speed test'],
-    ['FAQ', 'Investor Relations', 'Privacy', 'Speed test'],
+    ['Help Centre', 'Jobs', 'Cookie Preferences', 'Legal Notices'],
+    ['Account', 'Ways to Watch', 'Corporate Information', 'Only on Netflix'],
+    ['Media Centre', 'Terms of Use', 'Contact Us', ],
 ]

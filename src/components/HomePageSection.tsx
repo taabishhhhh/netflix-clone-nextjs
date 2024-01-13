@@ -3,7 +3,7 @@ import { HomePageSectionProps } from '../../interfaces'
 
 const HomePageSection = ({ children }: HomePageSectionProps) => {
   return (
-    <div className='flex items-center justify-between h-600 py-16 w-full'>
+    <div className='flex items-center justify-between h-600 py-16 w-full my-container'>
       {children}
     </div>
   )

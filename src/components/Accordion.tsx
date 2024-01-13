@@ -1,5 +1,5 @@
 'use client';
-import React, {useState} from 'react'
+import React from 'react'
 import { AccordionProps } from '../../interfaces'
 import {Add, Close} from '@mui/icons-material';
 
